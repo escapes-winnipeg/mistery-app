@@ -43,5 +43,7 @@ Podéis repartiros las tareas como vosotros consideréis, y hacer las vistas com
 
 La rama `dev` ya existe, y todos podéis ir a ella haciendo `git checkout dev`. Os recomendamos que repaséis la chuleta de git colaborativo y que, en las primeras iteraciones, os ayudéis los unos a los otros.
 
-Antes de llevar a cabo esta tarea, solo hay un problema, y es que **el modelo de User se ha perdido**, por lo que, al no saber qué campos serán necesarios, no podemos avanzar. Lo vieron por última vez en...
+Antes de llevar a cabo esta tarea, solo hay un problema, y es que **el modelo de User se ha perdido**, por lo que, al no saber qué campos serán necesarios, no podemos avanzar. Lo vieron por última vez [no muy lejos...](https://www.alebausa.com/winnipeg-user). 
+
+Por cierto, ¿sabéis a qué hace referencia la B de bcrypt?
 
