@@ -33,6 +33,8 @@ mongodb+srv://admin:admin@winnipegdb.vlodzpu.mongodb.net/winnipegDB
 
 Veréis que por defecto se crean dos colecciones: admin y local. Es correcto, no hace falta hacer nada con ellas.
 
+> Si hay algún error en el repositorio, acudid al punto de control 📍
+
 ---
 
 ### Primer paso 🔐
