@@ -28,6 +28,7 @@ Además, se ha creado una base de datos en Mongo Atlas para vosotros, para que *
 Para visualizar la base de datos desde Mongo Compass, todos tenéis que clicar en *Connections > New connection*, y añadir esta dirección:
 
 ```bash
+mongodb+srv://admin:admin@winnipegdb.vlodzpu.mongodb.net/winnipegDB
 ```
 
 ---
