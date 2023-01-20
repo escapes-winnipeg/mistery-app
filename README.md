@@ -25,11 +25,13 @@ Ahora:
 
 Además, se ha creado una base de datos en Mongo Atlas para vosotros, para que **todos veais la misma base de datos**, en vez de correr Mongo en local. Si os fijáis en el archivo .env, la dirección es diferente. No tenéis que tocarla. 
 
-Para visualizar la base de datos desde Mongo Compass, todos tenéis que clicar en *Connections > New connection*, y añadir esta dirección:
+Para visualizar la base de datos desde Mongo Compass, todos tenéis que clicar en *Connect > New connection*, y añadir esta dirección:
 
 ```bash
 mongodb+srv://admin:admin@winnipegdb.vlodzpu.mongodb.net/winnipegDB
 ```
+
+Veréis que por defecto se crean dos colecciones: admin y local. Es correcto, no hace falta hacer nada con ellas.
 
 ---
 
