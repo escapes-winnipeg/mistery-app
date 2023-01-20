@@ -2,7 +2,7 @@
 
 ![](/public/images/winnipeg.png)
 
-¡Bienvenidos equipo Winnipeg! Sabíamos que no nos ibáis a decepcionar. Habéis encontrado el repositorio, y eso nos da algo de esperanza, pero esto es solo el primer paso. Aún no sabéis de qué es la aplicación, pero aún no confiamos suficientemente en vosotros como para daros esas información. *Si esta parte sale bien, quizá...*
+¡Bienvenidos equipo Winnipeg! Sabíamos que no nos ibáis a decepcionar. Habéis encontrado el repositorio, y eso nos da algo de esperanza, pero esto es solo el primer paso. Aún no sabéis de qué es la aplicación, pero todavía no confiamos suficientemente en vosotros como para daros esa información. *Si esta parte sale bien, quizá...*
 
 ---
 
@@ -21,9 +21,14 @@ Ahora:
 - Una vez hecho, debéis ejecutar `npm install`
 - Probad que todo funciona correctamente ejecutando `npm run dev`
 
-> Si hay algún error en el repositorio, acudid al punto de control 📍
-
 ⚠️ El repositorio tiene todos los paquetes que vais a necesitar ya instalados.
+
+Además, se ha creado una base de datos en Mongo Atlas para vosotros, para que **todos veais la misma base de datos**, en vez de correr Mongo en local. Si os fijáis en el archivo .env, la dirección es diferente. No tenéis que tocarla. 
+
+Para visualizar la base de datos desde Mongo Compass, todos tenéis que clicar en *Connections > New connection*, y añadir esta dirección:
+
+```bash
+```
 
 ---
 
@@ -33,7 +38,7 @@ Lo primero que tenéis que hacer son las rutas de autenticación:
 
 ```bash
 GET /auth/signup
-POST auth/signup
+POST /auth/signup
 GET /auth/login
 POST /auth/login
 GET /auth/logout
